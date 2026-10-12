@@ -38,7 +38,7 @@ export function Footer() {
       <div className="container-xl grid gap-12 py-16 lg:grid-cols-[1.4fr_1fr_1fr_1fr]">
         <div>
           <Link href="/" className="flex items-center gap-2">
-            <img src={assetPath("/images/brand/q-clinic-logo.jpeg")} alt="Q Clinic" className="site-footer-logo" />
+            <img src={assetPath("/images/brand/q-clinic-logo-transparent.png")} alt="Q Clinic" className="site-footer-logo" />
             <span className="text-xl font-semibold text-white">
               Q Clinic
             </span>

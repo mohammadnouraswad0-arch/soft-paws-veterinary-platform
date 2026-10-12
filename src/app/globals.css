@@ -246,8 +246,8 @@ body {
 .site-brand, .site-header-actions { display: flex; align-items: center; }
 .site-brand { min-width: 0; gap: 0.5rem; }
  .site-brand-text { white-space: nowrap; }
-.site-brand-logo { width: 2.8rem; height: 2.8rem; flex: 0 0 auto; border-radius: 0.7rem; object-fit: cover; object-position: center 46%; background: var(--white); box-shadow: 0 4px 14px rgba(47, 113, 109, 0.14); }
-.site-footer-logo { width: 3.4rem; height: 3.4rem; border-radius: 0.8rem; object-fit: cover; object-position: center 46%; background: var(--white); }
+.site-brand-logo { width: 2.8rem; height: 2.8rem; flex: 0 0 auto; border-radius: 0.7rem; object-fit: cover; object-position: center 46%; background: transparent; box-shadow: 0 4px 14px rgba(63, 116, 116, 0.14); }
+.site-footer-logo { width: 3.4rem; height: 3.4rem; border-radius: 0.8rem; object-fit: cover; object-position: center 46%; background: transparent; }
 .site-header-actions { flex-shrink: 0; gap: 0.35rem; }
 
 .mobile-menu-panel { position: fixed; inset-inline: 0; top: 5rem; bottom: 0; z-index: 999; width: 100%; height: calc(100dvh - 5rem); overflow-x: hidden; overflow-y: auto; background: var(--cream); opacity: 0; pointer-events: none; transform: translateY(-8px); transition: opacity 0.25s ease, transform 0.25s ease; }
