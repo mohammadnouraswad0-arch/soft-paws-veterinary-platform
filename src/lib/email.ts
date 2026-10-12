@@ -22,7 +22,7 @@ async function sendEmail(params: { to: string; subject: string; html: string }):
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        from: process.env.EMAIL_FROM || "Soft Paws Veterinary <onboarding@resend.dev>",
+        from: process.env.EMAIL_FROM || "Q Clinic <onboarding@resend.dev>",
         to: [params.to],
         subject: params.subject,
         html: params.html,

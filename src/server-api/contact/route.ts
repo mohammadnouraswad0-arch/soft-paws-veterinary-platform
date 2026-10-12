@@ -41,7 +41,7 @@ export async function POST(req: Request) {
       method: "POST",
       headers: { Authorization: `Bearer ${apiKey}`, "Content-Type": "application/json" },
       body: JSON.stringify({
-        from: process.env.EMAIL_FROM || "Soft Paws Veterinary <onboarding@resend.dev>",
+        from: process.env.EMAIL_FROM || "Q Clinic <onboarding@resend.dev>",
         to: [clinic.email],
         subject: `رسالة جديدة من نموذج التواصل — ${parsed.data.name}`,
         html: `<div dir="rtl" style="font-family:sans-serif;">

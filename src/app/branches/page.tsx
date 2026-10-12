@@ -5,7 +5,7 @@ import { getBranches } from "@/lib/queries";
 
 export const metadata: Metadata = {
   title: "فروعنا",
-  description: "مواقع فروع عيادة المخالب الناعمة، ساعات العمل، وطرق التواصل مع كل فرع.",
+  description: "مواقع فروع Q Clinic، ساعات العمل، وطرق التواصل مع كل فرع.",
 };
 
 export default async function BranchesPage() {

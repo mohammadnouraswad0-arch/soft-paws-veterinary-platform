@@ -7,7 +7,7 @@ import { ContactForm } from "@/components/contact-form";
 
 export const metadata: Metadata = {
   title: "تواصل معنا",
-  description: "تواصل مع فريق عيادة المخالب الناعمة عبر الهاتف أو واتساب أو زيارة أحد فروعنا.",
+  description: "تواصل مع فريق Q Clinic عبر الهاتف أو واتساب أو زيارة أحد فروعنا.",
 };
 
 export default async function ContactPage() {

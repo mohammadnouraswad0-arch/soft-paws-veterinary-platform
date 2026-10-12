@@ -33,7 +33,7 @@ export function Hero() {
             className="eyebrow mb-5 text-beige opacity-0"
             style={{ animation: "heroItemIn .8s .2s cubic-bezier(.22,1,.36,1) forwards" }}
           >
-            عيادة المخالب الناعمة
+            Q Clinic
           </p>
           <h1
             className="heading-display text-[clamp(2.4rem,5.4vw,4.25rem)] text-white opacity-0"

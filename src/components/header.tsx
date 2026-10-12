@@ -4,7 +4,8 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { useCart } from "@/components/cart/cart-context";
-import { CartIcon, CloseIcon, MenuIcon, PawIcon } from "@/components/icons";
+import { CartIcon, CloseIcon, MenuIcon } from "@/components/icons";
+import { assetPath } from "@/lib/assets";
 
 const NAV_LINKS = [
   { href: "/", label: "الرئيسية" },
@@ -47,10 +48,10 @@ export function Header() {
   return (
     <header className={`site-header ${scrolled || menuOpen ? "scrolled" : ""}`}>
       <div className="container-xl site-header-inner">
-        <Link href="/" className="site-brand" aria-label="المخالب الناعمة، الصفحة الرئيسية">
-          <PawIcon className={`h-6 w-6 shrink-0 ${lightText ? "text-white" : "text-burgundy"}`} />
+        <Link href="/" className="site-brand" aria-label="Q Clinic، الصفحة الرئيسية">
+          <img src={assetPath("/images/brand/q-clinic-logo.jpeg")} alt="Q Clinic" className="site-brand-logo" />
           <span className={`site-brand-text text-lg font-semibold ${lightText ? "text-white" : "text-dark"}`}>
-            المخالب الناعمة
+            Q Clinic
             <span className={lightText ? "text-white/70" : "text-dark/50"}> البيطرية</span>
           </span>
         </Link>

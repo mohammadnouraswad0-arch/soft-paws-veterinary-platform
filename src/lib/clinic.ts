@@ -8,8 +8,8 @@ function envOrPlaceholder(value: string | undefined, placeholder: string) {
 }
 
 export const clinic = {
-  name: "عيادة المخالب الناعمة",
-  shortName: "المخالب الناعمة",
+  name: "Q Clinic",
+  shortName: "Q Clinic",
   tagline: "رعاية بيطرية راقية، بقلب يهتم بكل تفصيلة",
   phone: envOrPlaceholder(process.env.PHONE_NUMBER, "[PHONE_NUMBER]"),
   email: envOrPlaceholder(process.env.CLINIC_EMAIL, "[CLINIC_EMAIL]"),

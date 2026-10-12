@@ -4,7 +4,7 @@ import { ArrowIcon } from "@/components/icons";
 
 export const metadata: Metadata = {
   title: "الحجز",
-  description: "معلومات الحجز والتواصل مع عيادة المخالب الناعمة.",
+  description: "معلومات الحجز والتواصل مع Q Clinic.",
 };
 
 export default function BookingPage() {
@@ -17,7 +17,7 @@ export default function BookingPage() {
           هذه النسخة التعريفية منشورة على GitHub Pages. لإتمام حجز فعلي، يرجى ربط الموقع بخادم وقاعدة بيانات ثم تفعيل بيانات التواصل الخاصة بالعيادة.
         </p>
         <div className="mt-10 rounded-[var(--radius-lg)] bg-sand p-7 md:p-9">
-          <h2 className="heading-section text-xl text-dark">تواصل مع فريق المخالب الناعمة</h2>
+          <h2 className="heading-section text-xl text-dark">تواصل مع فريق Q Clinic</h2>
           <p className="mt-3 text-sm leading-7 text-dark/65">
             أرسل لنا بيانات الحيوان والخدمة المطلوبة، وسيتواصل معك الفريق لتأكيد الموعد.
           </p>

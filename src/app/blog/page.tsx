@@ -5,7 +5,7 @@ import { blogPosts } from "@/lib/content";
 
 export const metadata: Metadata = {
   title: "المدونة",
-  description: "مقالات ونصائح لرعاية أفضل لحيوانك الأليف من فريق عيادة المخالب الناعمة.",
+  description: "مقالات ونصائح لرعاية أفضل لحيوانك الأليف من فريق Q Clinic.",
 };
 
 export default function BlogPage() {

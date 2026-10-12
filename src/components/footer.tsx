@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { clinic, isPlaceholder } from "@/lib/clinic";
-import { PawIcon, InstagramIcon, WhatsAppIcon } from "@/components/icons";
+import { InstagramIcon, WhatsAppIcon } from "@/components/icons";
+import { assetPath } from "@/lib/assets";
 
 const COLUMNS = [
   {
@@ -37,9 +38,9 @@ export function Footer() {
       <div className="container-xl grid gap-12 py-16 lg:grid-cols-[1.4fr_1fr_1fr_1fr]">
         <div>
           <Link href="/" className="flex items-center gap-2">
-            <PawIcon className="h-6 w-6 text-beige" />
+            <img src={assetPath("/images/brand/q-clinic-logo.jpeg")} alt="Q Clinic" className="site-footer-logo" />
             <span className="text-xl font-semibold text-white">
-              المخالب الناعمة
+              Q Clinic
             </span>
           </Link>
           <p className="mt-4 max-w-xs text-sm leading-7 text-cream/70">
@@ -88,7 +89,7 @@ export function Footer() {
       </div>
       <div className="border-t border-white/10">
         <div className="container-xl flex flex-col gap-2 py-6 text-xs text-cream/50 sm:flex-row sm:items-center sm:justify-between">
-          <p>© {new Date().getFullYear()} عيادة المخالب الناعمة. جميع الحقوق محفوظة.</p>
+          <p>© {new Date().getFullYear()} Q Clinic. جميع الحقوق محفوظة.</p>
           <p>{clinic.email}</p>
         </div>
       </div>

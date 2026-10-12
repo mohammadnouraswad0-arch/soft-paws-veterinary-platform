@@ -7,7 +7,7 @@ import { ShopClient } from "@/components/shop/shop-client";
 import { getProducts, getProductCategories } from "@/lib/queries";
 
 export const metadata: Metadata = {
-  title: "متجر المخالب الناعمة",
+  title: "متجر Q Clinic",
   description: "أغذية ومنتجات عناية وإكسسوارات مختارة بعناية لحيوانك الأليف.",
 };
 
@@ -23,7 +23,7 @@ export default async function ShopPage() {
       <section className="shop-hero">
         <div className="container-xl shop-hero-grid">
           <Reveal className="shop-hero-copy">
-            <p className="eyebrow mb-4 text-burgundy">متجر المخالب الناعمة</p>
+            <p className="eyebrow mb-4 text-burgundy">متجر Q Clinic</p>
             <h1 className="heading-display text-[clamp(2.5rem,6vw,5rem)] text-dark">
               كل ما يحتاجه<br />
               <span className="text-burgundy">حيوانك اليوم</span>
@@ -103,7 +103,7 @@ export default async function ShopPage() {
       </section>
 
       <section className="bg-cream pb-20 pt-4">
-        <div className="container-xl"><div className="shop-promo"><div><p className="text-sm font-semibold text-burgundy">عرض خاص من المخالب الناعمة</p><h2 className="mt-2 text-2xl font-semibold text-dark md:text-3xl">رفاهية أكثر، وراحة أكبر</h2><p className="mt-2 text-sm text-dark/60">اطلب منتجاتك المفضلة اليوم واستفد من توصيات فريقنا.</p></div><Link href="#products" className="btn btn-primary btn-sm">تصفح باقي المنتجات</Link></div></div>
+        <div className="container-xl"><div className="shop-promo"><div><p className="text-sm font-semibold text-burgundy">عرض خاص من Q Clinic</p><h2 className="mt-2 text-2xl font-semibold text-dark md:text-3xl">رفاهية أكثر، وراحة أكبر</h2><p className="mt-2 text-sm text-dark/60">اطلب منتجاتك المفضلة اليوم واستفد من توصيات فريقنا.</p></div><Link href="#products" className="btn btn-primary btn-sm">تصفح باقي المنتجات</Link></div></div>
       </section>
     </main>
   );

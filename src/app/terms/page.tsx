@@ -3,7 +3,7 @@ import { Reveal } from "@/components/reveal";
 
 export const metadata: Metadata = {
   title: "الشروط والأحكام",
-  description: "الشروط والأحكام الخاصة باستخدام موقع والحجز والشراء من عيادة المخالب الناعمة.",
+  description: "الشروط والأحكام الخاصة باستخدام موقع والحجز والشراء من Q Clinic.",
 };
 
 const SECTIONS = [

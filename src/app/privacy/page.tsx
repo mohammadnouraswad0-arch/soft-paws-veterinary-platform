@@ -4,7 +4,7 @@ import { clinic } from "@/lib/clinic";
 
 export const metadata: Metadata = {
   title: "سياسة الخصوصية",
-  description: "سياسة الخصوصية الخاصة بعيادة المخالب الناعمة وكيفية التعامل مع بياناتك.",
+  description: "سياسة الخصوصية الخاصة بQ Clinic وكيفية التعامل مع بياناتك.",
 };
 
 const SECTIONS = [

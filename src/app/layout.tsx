@@ -21,13 +21,13 @@ const ibmPlexArabic = IBM_Plex_Sans_Arabic({
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "عيادة المخالب الناعمة — رعاية متكاملة لحيوانك الأليف",
-    template: "%s — عيادة المخالب الناعمة",
+    default: "Q Clinic — رعاية متكاملة لحيوانك الأليف",
+    template: "%s — Q Clinic",
   },
   description:
     "رعاية بيطرية متخصصة، حجز إلكتروني، ومنتجات موثوقة في مكان واحد. أطباء متخصصون وتجهيزات حديثة لصحة حيوانك الأليف.",
   openGraph: {
-    title: "عيادة المخالب الناعمة",
+    title: "Q Clinic",
     description: "رعاية بيطرية متخصصة، حجز إلكتروني، ومنتجات موثوقة في مكان واحد.",
     locale: "ar_SA",
     type: "website",

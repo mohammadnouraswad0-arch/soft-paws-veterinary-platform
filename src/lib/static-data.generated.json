@@ -2,7 +2,7 @@
   "clinics": [
     {
       "id": 1,
-      "name": "عيادة المخالب الناعمة",
+      "name": "Q Clinic",
       "description": "رعاية بيطرية متكاملة تجمع بين الخبرة الطبية والدفء الإنساني.",
       "phone": null,
       "email": null,
@@ -543,7 +543,7 @@
       "categoryId": 1,
       "name": "غذاء جاف فاخر للقطط",
       "slug": "premium-cat-dry-food",
-      "brand": "Soft Paws Nutrition",
+      "brand": "Q Clinic",
       "description": "غذاء متوازن غنيّ بالبروتين يدعم صحة الجهاز الهضمي ولمعان الفراء لدى القطط البالغة.",
       "benefits": [
         "يدعم صحة الجهاز الهضمي",
@@ -582,7 +582,7 @@
       "categoryId": 1,
       "name": "غذاء جاف متكامل للكلاب",
       "slug": "complete-dog-dry-food",
-      "brand": "Soft Paws Nutrition",
+      "brand": "Q Clinic",
       "description": "تركيبة غذائية كاملة تمنح كلبك الطاقة والعناصر الغذائية اللازمة لنشاط يومي متوازن.",
       "benefits": [
         "طاقة متوازنة طوال اليوم",
@@ -621,7 +621,7 @@
       "categoryId": 8,
       "name": "جل عناية بالفم والأسنان",
       "slug": "oral-care-gel",
-      "brand": "Soft Paws Dental",
+      "brand": "Q Clinic",
       "description": "جل يومي سهل الاستخدام يقلل تراكم الجير ويحافظ على رائحة فم منعشة.",
       "benefits": [
         "يقلل تراكم الجير",
@@ -654,7 +654,7 @@
       "categoryId": 4,
       "name": "شامبو فرو فاخر بزيت الأرغان",
       "slug": "argan-grooming-shampoo",
-      "brand": "Soft Paws Grooming",
+      "brand": "Q Clinic",
       "description": "شامبو لطيف على الجلد ينظف بعمق ويمنح الفراء نعومة ولمعانًا طبيعيًا.",
       "benefits": [
         "لطيف على البشرة الحساسة",
@@ -688,7 +688,7 @@
       "categoryId": 2,
       "name": "مكمل الحيوية والمفاصل",
       "slug": "vitality-joint-supplement",
-      "brand": "Soft Paws Vital",
+      "brand": "Q Clinic",
       "description": "مكمل غذائي يدعم صحة المفاصل ومستوى النشاط لدى الكلاب والقطط النشطة أو المسنّة.",
       "benefits": [
         "يدعم مرونة المفاصل",
@@ -722,7 +722,7 @@
       "categoryId": 3,
       "name": "واقي القراد والبراغيث الشهري",
       "slug": "monthly-parasite-shield",
-      "brand": "Soft Paws Protect",
+      "brand": "Q Clinic",
       "description": "حماية شهرية فعالة من القراد والبراغيث والطفيليات الخارجية الشائعة.",
       "benefits": [
         "حماية تدوم شهرًا كاملًا",
@@ -755,7 +755,7 @@
       "categoryId": 7,
       "name": "طوق ومقود جلدي فاخر",
       "slug": "leather-collar-leash-set",
-      "brand": "Soft Paws Comfort",
+      "brand": "Q Clinic",
       "description": "طقم طوق ومقود من الجلد الطبيعي المعالج، مريح ومتين للاستخدام اليومي.",
       "benefits": [
         "جلد طبيعي معالج",
@@ -785,7 +785,7 @@
       "categoryId": 7,
       "name": "لعبة قطط يدوية الصنع",
       "slug": "handmade-cat-toy",
-      "brand": "Soft Paws Play",
+      "brand": "Q Clinic",
       "description": "لعبة قماشية آمنة ومحشوة بعشبة القطط لتحفيز النشاط الذهني والحركي.",
       "benefits": [
         "تحفّز الغريزة الطبيعية للعب",
@@ -818,7 +818,7 @@
       "categoryId": 8,
       "name": "أعواد تنظيف الأسنان الطبيعية",
       "slug": "natural-dental-chew-sticks",
-      "brand": "Soft Paws Dental",
+      "brand": "Q Clinic",
       "description": "أعواد مضغ طبيعية تساعد على إزالة الجير وتعزيز صحة اللثة أثناء المضغ اليومي.",
       "benefits": [
         "يقلل تراكم الجير بالمضغ الطبيعي",
@@ -852,7 +852,7 @@
       "categoryId": 4,
       "name": "رمل قطط عالي الامتصاص",
       "slug": "smart-clumping-cat-litter",
-      "brand": "Soft Paws Comfort",
+      "brand": "Q Clinic",
       "description": "رمل قطط متكتل عالي الامتصاص يحد من الروائح ويسهل التنظيف اليومي.",
       "benefits": [
         "امتصاص سريع وفعّال",
