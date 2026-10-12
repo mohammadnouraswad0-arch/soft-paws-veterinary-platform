@@ -43,24 +43,24 @@ function emailShell(title: string, bodyHtml: string) {
   return `<!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head><meta charset="utf-8" /><title>${title}</title></head>
-<body style="margin:0;padding:0;background:#F3ECE2;font-family:'IBM Plex Sans Arabic',Tahoma,sans-serif;">
-  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#F3ECE2;padding:32px 16px;">
+<body style="margin:0;padding:0;background:#EAF4F4;font-family:'IBM Plex Sans Arabic',Tahoma,sans-serif;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#EAF4F4;padding:32px 16px;">
     <tr>
       <td align="center">
-        <table role="presentation" width="100%" style="max-width:560px;background:#FAF7F1;border-radius:20px;overflow:hidden;">
+        <table role="presentation" width="100%" style="max-width:560px;background:#F7FBFB;border-radius:20px;overflow:hidden;">
           <tr>
-            <td style="background:#742F3A;padding:28px 32px;">
-              <p style="margin:0;color:#EEE5D8;font-size:12px;letter-spacing:2px;text-transform:uppercase;">${clinic.name}</p>
+            <td style="background:#3F7474;padding:28px 32px;">
+              <p style="margin:0;color:#DCEFF0;font-size:12px;letter-spacing:2px;text-transform:uppercase;">${clinic.name}</p>
               <h1 style="margin:8px 0 0;color:#ffffff;font-size:22px;">${title}</h1>
             </td>
           </tr>
           <tr>
-            <td style="padding:28px 32px;color:#2E2927;font-size:14px;line-height:1.9;">
+            <td style="padding:28px 32px;color:#2F3C3D;font-size:14px;line-height:1.9;">
               ${bodyHtml}
             </td>
           </tr>
           <tr>
-            <td style="padding:18px 32px;background:#EEE5D8;color:#54202A;font-size:12px;">
+            <td style="padding:18px 32px;background:#DCEFF0;color:#315D5E;font-size:12px;">
               هذه رسالة آلية من نظام الحجز الإلكتروني — ${clinic.name}
             </td>
           </tr>
@@ -74,8 +74,8 @@ function emailShell(title: string, bodyHtml: string) {
 
 function row(label: string, value: string) {
   return `<tr>
-    <td style="padding:6px 0;color:#82404A;font-size:12px;width:140px;vertical-align:top;">${label}</td>
-    <td style="padding:6px 0;color:#2E2927;font-size:14px;font-weight:600;">${value}</td>
+    <td style="padding:6px 0;color:#508C8E;font-size:12px;width:140px;vertical-align:top;">${label}</td>
+    <td style="padding:6px 0;color:#2F3C3D;font-size:14px;font-weight:600;">${value}</td>
   </tr>`;
 }
 
@@ -139,7 +139,7 @@ export async function sendOrderNotification(order: {
          ${row("المدينة", order.city)}
          ${row("الإجمالي", `${order.total} ر.س`)}
        </table>
-       <p style="margin:16px 0 6px;color:#82404A;font-size:12px;">المنتجات</p>
+       <p style="margin:16px 0 6px;color:#508C8E;font-size:12px;">المنتجات</p>
        <ul style="margin:0;padding-inline-start:18px;">${itemsHtml}</ul>`
     );
     return sendEmail({ to: clinic.email, subject: `طلب شراء جديد — ${order.orderNumber}`, html });

@@ -1,4 +1,4 @@
-# إعداد استضافة المخالب الناعمة على GitHub Pages
+# إعداد استضافة Q Clinic على GitHub Pages
 
 المستودع: <https://github.com/nassifmhm302-beep/soft-paws-veterinary-platform>
 
